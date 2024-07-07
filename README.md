@@ -3,30 +3,30 @@
  * 因为是拿[学长代码](https://github.com/yangxiaozhao/NCEPU_SoftwareEngineering_Experiment)改的，我没征求人家同意,所以只把学长已经公开了的导航器代码放上来，别的请私信我索要，遗憾的是我不一定看私信。
    已经经过我大幅修改，相关参与者还有通义灵码，此外，不愿透露姓名的董先生帮我看了看算法。
 
-##控制器
+## 控制器
 
 * 控制器使用java语言开发,并使用Maven进行构建和管理，开发环境为IDEA，打包为origin_control-1.0-SNAPSHOT.jar文件，在命令行中运行即可。
 
 
-##导航器
+## 导航器
 
 * 导航器使用java语言开发,并使用Maven进行构建和管理，开发环境为IDEA，打包为self_daohang-1.0-SNAPSHOT.jar，在命令行中运行。
 
-##小车
+## 小车
 
 * 小车使用java语言开发,并使用Maven进行构建和管理，开发环境为IDEA，打包为origin_car-1.0-SNAPSHOT.jar，在命令行中运行。
 
 
 * 运行小车时应当附带参数，其参数格式为car+数字，数字应当从1开始，随小车数量依次增大，最大为4，每次命令会启动名为参数的一台小车，各小车独立运行。
 
-##显示及回放组件
+## 显示及回放组件
 
 * 显示组件使用C#语言开发，C#语言使用.NET SDK (5.0.416)，IDE使用Visual Studio Community 2019，
 使用NuGet包（CSRedisCore、Newtonsoft.Json）进行Redis读写和Json反序列化。已将项目打包成MapExploreView.exe，双击运行即可。
 
 * 当地图编辑完毕，并且程序正常运行时，显示组件退出也没关系了，可以点击观看按钮随时回去观战。
 
-##运行须知
+## 运行须知
 
 * JAVA的SDK应当使用Oracle OpenJDK version 17.0.1，经过我们实际测试，新版本的各种JDK均可运行，不必刻意修改。
 
